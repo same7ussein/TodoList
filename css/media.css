@@ -1,0 +1,110 @@
+/* media for login and sign up */
+@media screen and (max-width: 450px) { 
+  .body {
+    padding: 0px 10px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .form-container {
+    padding: 10px 15px;
+  }
+
+  .form-container input:not(input[type="checkbox"]) {
+    font-size: 14px;
+    padding: 20px 20px 20px 40px;
+  }
+
+  .form-container input[type="password"] {
+    padding-right: 35px !important;
+  }
+
+  .form-container .left-icon,
+  .form-container .right-icon {
+    font-size: 16px;
+  }
+
+  .form-details {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .form-details a {
+    align-self: flex-end;
+  }
+
+  .form-details a,
+  .form-details div label,
+  .form-container p {
+    font-size: 14px;
+  }
+
+  .close-btn {
+    width: 150px;
+    height: 40px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+/* media for to do list  */
+@media screen and (max-width: 620px) {
+  .box {
+    margin:60px  10px;
+    padding: 10px 15px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .box {
+    margin: 60px 10px;
+    padding: 10px 15px;
+  }
+
+  #inputBx {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .box li {
+    width: calc(100% - 30px);
+    margin: 10px 0;
+    padding: 5px 5px 5px 35px;
+    min-height: 45px;
+    border-radius: 16px;
+  }
+
+  .box li i {
+    right: -35px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .box li::before {
+    content: "";
+    left: 4px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .box li.done .list-icon {
+    position: absolute;
+    left: 4px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+
+  #list {
+    margin-top: 20px;
+    height: 350px;
+    overflow-y: auto;
+    padding-right: 10px;
+  }
+}
+
